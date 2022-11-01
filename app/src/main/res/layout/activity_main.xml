@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="9000dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/DLDL">
+    <FrameLayout
+        android:layout_marginTop="55dp"
+        android:id="@+id/fragcoantainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      >
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="181dp"
+            android:layout_height="49dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="tv1click"
+            android:text="TextView"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/my_navigation_items" />
+</androidx.drawerlayout.widget.DrawerLayout>

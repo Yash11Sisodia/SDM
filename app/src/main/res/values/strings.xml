@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SDM</string>
+    <string name="lable2">ALL</string>
+    <string name="item1">item1</string>
+    <string name="item2">SDM</string>
+    <string name="item3">ALL</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+</resources>

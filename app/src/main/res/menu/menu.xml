@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/itm1" android:title="@string/item1" app:showAsAction="never"  style="@style/OverflowMenu"/>
+    <item android:id="@+id/itm2" android:title="@string/item2" app:showAsAction="never" style="@style/OverflowMenu"/>
+    <item android:id="@+id/itm3" android:title="@string/item3" app:showAsAction="never" style="@style/OverflowMenu"/>
+</menu>
